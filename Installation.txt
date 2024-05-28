@@ -1,0 +1,12 @@
+1. Install laravel
+-composer create-project --prefer-dist laravel/laravel example-app "10.*"
+
+2. Package starter kit laravel (laravel breeze)
+-composer require laravel/breeze --dev
+-run server & add db
+-edit .env
+
+3. Install breeze
+-php artisan breeze:install
+-npm install
+-npm run dev
